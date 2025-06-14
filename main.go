@@ -28,7 +28,7 @@ func usage() {
 	"    -p, --port <port>     IMAPS server port (default 993)\n" +
 	"    -P, --pass <pass>     password\n" +
 	"    -E, --envpass VAR     get password from environment var $VAR\n" +
-	"    -z, --gzip            compress the output\n")
+	"    -z, --gzip            compress the output")
 	os.Exit(1)
 }
 
